@@ -1,0 +1,20 @@
+{
+  "name": "chaster-api",
+  "version": "0.12.54",
+  "description": "OpenAPI client for chaster-api",
+  "author": "OpenAPI-Generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Donut-Locks/Chaster-API.git"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0",
+    "webpack": "^5.83.1"
+  }
+}
